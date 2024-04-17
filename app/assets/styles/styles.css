@@ -1,0 +1,8 @@
+@import './base/_global.css';
+@import './modules/_cat-head.css';
+@import './modules/_cat-left-ear.css';
+@import'./modules/_cat-right-ear.css';
+@import './modules/_cat-left-eye.css';
+@import './modules/_cat-right-eye.css';
+@import './modules/_cat-nose.css';
+@import './modules/_cat-mouth.css';
