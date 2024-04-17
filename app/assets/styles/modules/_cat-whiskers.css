@@ -1,0 +1,59 @@
+.cat-whiskers {
+
+    &__left {
+        div {
+            width: 40px;
+            height: 1px;
+            background-color: #000;
+        }
+
+        &--top {
+            position: absolute;
+            top: 120px;
+            left: 52px;
+            transform: rotate(10deg);
+        }
+        &--middle {
+            position: absolute;
+            top: 127px;
+            left: 52px;
+            transform: rotate(3deg);
+        }
+
+        &--bottom {
+            position: absolute;
+            top: 134px;
+            left: 52px;
+            transform: rotate(-3deg);
+        }
+    }
+
+    &__right {
+        div {
+            width: 40px;
+            height: 1px;
+            background-color: #000;
+        }
+
+        &--top {
+            position: absolute;
+            top: 120px;
+            left: 109px;
+            transform: rotate(-10deg);
+        }
+
+        &--middle {
+            position: absolute;
+            top: 127px;
+            left: 109px;
+            transform: rotate(-3deg);
+        }
+
+        &--bottom {
+            position: absolute;
+            top: 134px;
+            left: 109px;
+            transform: rotate(3deg);
+        }
+    }
+}
